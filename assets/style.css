@@ -1,0 +1,17 @@
+body, h1{
+background-color: black;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: antiquewhite;
+line-height: 1.6;
+}
+
+p{
+color: antiquewhite;
+width: 300px;
+border: 10px solid red;
+}
+
+h2, p, a {
+    border-width: thick;
+
+}

@@ -5,13 +5,31 @@ color: antiquewhite;
 line-height: 1.6;
 }
 
+div {
+height: 100%;
+width: 100%;
+}
+img {
+width: 500px;
+}
+
+h2 {
+font-size: 250%;
+text-decoration: underline;
+}
+
+#bar {
+margin-left: 50px;
+margin-right: 50px;
+}
+
 p{
 color: antiquewhite;
-width: 300px;
+width: 500px;
 border: 10px solid red;
 }
 
-h2, p, a {
+p, a {
     border-width: thick;
 
 }

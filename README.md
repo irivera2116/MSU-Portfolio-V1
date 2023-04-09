@@ -1,2 +1,2 @@
-# MSU_Challenge_2
-Portfolio V1, my first portfolio website
+# MSU-Portfolio-V1
+Portfolio V1, my first attempt at creating a portfolio website!

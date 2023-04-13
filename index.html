@@ -11,16 +11,17 @@
 <body>
     <header>
         <h1>Isaac Rivera</h1>
-        <img src="./assets/Self.jpg" alt="Image of me">
+        <img src="./assets/Self.jpg" alt="Image of me" class="img1">
         <h2>Welcome to my Portfolio!</h2>
+        <nav>
+            <ul>
+                <li><a href="#Abo" id="bar">About Me</a></li>
+                <li><a href="#Pro" id="bar">Projects</a></li>
+               <li><a href="#Con" id="bar">Contact Info</a></li>
+            </ul>
+        </nav>
     </header>
-
-    <nav>
-        <a href="#Abo" id="bar">About Me</a>
-        <a href="#Pro" id="bar">Projects</a>
-        <a href="#Con" id="bar">Contact Info</a>
-    </nav>
-    
+ 
     <main id="#">
     <div>
     <section id="Abo">
@@ -43,7 +44,26 @@
 
     <section id="Con">
         <h2>Contact Info</h2>
+        <form action="action_page.php">
 
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            <br>
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+            <br>
+            <label for="country">Country</label>
+            <select id="country" name="country">
+              <option value="australia">Australia</option>
+              <option value="canada">Canada</option>
+              <option value="usa">USA</option>
+            </select>
+            <br>
+            <label for="subject">Subject</label>
+            <br>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+            <br>
+            <input type="submit" value="Submit">
     </section>
     </div>
     </main>

@@ -1,35 +1,82 @@
 body, h1{
-background-color: black;
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-color: antiquewhite;
-line-height: 1.6;
+    margin-top: 100px;
+    background-color: black;
+    font-family: 'Gothic', 'Arial Narrow', Arial, sans-serif;
+    color: antiquewhite;
+    line-height: 1.6;
 }
 
-div {
-height: 100%;
-width: 100%;
+.img1 {
+    border-radius: 50%;
+    width: 50%;
 }
+nav {
+    overflow: hidden;
+    background-color: #000000;
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+}
+
+li {
+    float: right;
+    display: block;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: x-large;
+}
+
+main {
+    font-size: x-large;
+}
+div {
+    height: 100%;
+    width: 100%;
+}
+
 img {
-width: 500px;
+    width: 500px;
 }
 
 h2 {
-font-size: 250%;
-text-decoration: underline;
+    font-size: 250%;
+    text-decoration: underline;
 }
 
 #bar {
-margin-left: 50px;
-margin-right: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 p{
-color: antiquewhite;
-width: 500px;
-border: 10px solid red;
+    color: antiquewhite;
+    font-size: larger;
+    width: 800px;
+    border: 10px solid red;
 }
 
 p, a {
     border-width: thick;
 
+}
+
+#pro {
+    float: right;
+}
+
+input[type=text], select, textarea {
+    width: 75%;
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box;
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical;
+}
+
+input[type=submit] {
+    width: 100px;
+    font-size: larger;
 }

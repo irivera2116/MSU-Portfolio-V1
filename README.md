@@ -11,7 +11,7 @@ SO THAT I can review samples of their work and assess whether they're a good can
 I started with a basic html and started deciding on what to put in. Adding an image of myself from a few months ago and setting up a short about me portion.
 Using a reset.css template from the bootcamp, i used a basic reset and created my style.css to reflect my preffered styling. The contact information box was a template used from the website below. 
 
-
+![/assets/PortfolioV1.png]
 
 To see the deployed website please follow this link: https://irivera2116.github.io/MSU-Portfolio-V1/
 
